@@ -1,7 +1,8 @@
 import type { NextPage } from 'next';
+import { Layout } from '../components/layouts';
 
 const Home: NextPage = () => {
-  return <h1>CookieMaster</h1>;
+  return <Layout>CookieMaster</Layout>;
 };
 
 export default Home;
